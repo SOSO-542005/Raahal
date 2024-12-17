@@ -1,0 +1,91 @@
+/* إعادة ضبط العناصر */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* تنسيق العنوان */
+.header-section {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    top: -60px; /* يرفع النص خارج الصورة */
+}
+
+.italic-text {
+    font-style: italic;
+    font-size: 18px;
+    color: #0073e6;
+}
+
+.main-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0073e6;
+}
+
+/* المحتوى */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left-section, .right-section {
+    width: 25%;
+}
+
+.center-section {
+    width: 50%;
+    text-align: center;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 15px; /* مسافة بين الأيقونة والنص */
+}
+
+.feature i {
+    font-size: 32px;
+    color: #0066cc;
+}
+
+.text h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #0066cc;
+}
+
+.text p {
+    font-size: 14px;
+    color: #666;
+}
+
+.travel-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
